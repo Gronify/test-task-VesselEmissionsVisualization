@@ -74,6 +74,11 @@ Frontend runs on `http://localhost:3000`.
 - Emissions deviation chart (Highcharts)
 - Lines on the chart can be toggled on/off
 - Table data view for emissions
+- Components:
+  -- `Chart.tsx`: renders the Highcharts line chart
+  -- `Controls.tsx`: vessel selector and interactions
+  -- `DataTable.tsx`: renders emissions table
+- Types defined in `types/emissions.ts`
 
 ---
 
